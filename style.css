@@ -1,1 +1,84 @@
+body {
+    margin: auto; 
+}
 
+/* ----------------------------------- */
+/*         T O P   N A V
+/* ----------------------------------- */
+
+.topNav { 
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed; 
+    width: 100%;
+    height: 50px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topNav a{
+    color: white; 
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+#myLinks {
+    display:none;
+}
+
+#myLinks a{
+    color: white;
+}
+
+.icon {
+    color: white;
+    padding: 10px; 
+    display: block;
+}
+
+.logo{
+    padding: 10px; 
+}
+
+
+.page {
+    height: 800px; 
+
+}
+
+/* ----------------------------------- */
+/*             H O M E
+/* ----------------------------------- */
+#Home{
+    background-image: url("https://miastodzieci.pl/wp-content/uploads/2021/03/zima-quiz-wiedzy.jpg"); 
+}
+
+/* ----------------------------------- */
+/*        A B O U T    M E 
+/* ----------------------------------- */
+#AboutMe {
+    background-color: red;
+}
+
+
+
+
+
+/* ----------------------------------- */
+/*          P R O J E C T S
+/* ----------------------------------- */
+#Projects {
+    background-color: blue;
+}
+
+
+
+
+
+/* ----------------------------------- */
+/*        C O N T A C T   M E 
+/* ----------------------------------- */
+#ContactMe {
+    background-color: green;
+}
