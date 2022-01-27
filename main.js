@@ -8,7 +8,7 @@ if (typeof $ == 'undefined'){
 // ...............................................
 //      N A V - B A R
 
-$(".icon").click(function() {
+$(".menuicon").click(function() {
     let x = document.getElementById("myLinks");
 
     if (x.style.display === "block") {
@@ -18,12 +18,3 @@ $(".icon").click(function() {
     }
 })
 
-$(".logo").click(function() {
-    let x = document.getElementById("myLinks");
-    
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-})
