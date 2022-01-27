@@ -1,5 +1,5 @@
 body {
-    background-color: yellow;
+    background-color: #49BFBF;
     margin: 0px; 
     padding: 0px;
     font-family: 'Montserrat', sans-serif; 
@@ -54,11 +54,6 @@ body {
 }
 
 
-.page {
-    height: 100vh; 
-}
-
-
 
 /* ----------------------------------- */
 /*             H O M E
@@ -66,22 +61,27 @@ body {
 #Home{
     background-color: thistle;
     background-image: url(https://miastodzieci.pl/wp-content/uploads/2021/03/zima-quiz-wiedzy.jpg);
-    margin-top: -75px;
     background-position: -450px;
     background-repeat: no-repeat;
 
     display: flex; 
     flex-direction: column;
     justify-content: center;
-}
 
+    height: 100vh; 
+}
 
 h1, h2 { 
   color: white; 
   text-align: center;
-
 }
 
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 30px;
+}
 
 
 
@@ -89,7 +89,29 @@ h1, h2 {
 /*        A B O U T    M E 
 /* ----------------------------------- */
 #AboutMe {
-    background-color: red;
+    background-color: #495A8C;
+}
+
+.memoji {
+    width: 50%;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    color: white; 
+}
+
+p {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    line-height: 200%;
+    padding: 10px 20px 40px 20px;
 }
 
 
