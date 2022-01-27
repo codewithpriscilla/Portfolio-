@@ -9,7 +9,7 @@ if (typeof $ == 'undefined'){
 //      N A V - B A R
 
 $(".menuicon").click(function() {
-    let x = document.getElementById("myLinks");
+    let x = document.getElementById("pageLinks");
 
     if (x.style.display === "block") {
       x.style.display = "none";

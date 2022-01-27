@@ -33,13 +33,13 @@ body {
     display: block;
 }
 
-#myLinks {
+#pageLinks {
     justify-self: right;
     text-align: right;
-    display: none
+    display: none;
 }
 
-#myLinks a{
+#pageLinks a{
     padding: 10px 15px;
 }
 
@@ -204,5 +204,42 @@ h4 {
 /*        C O N T A C T   M E 
 /* ----------------------------------- */
 #ContactMe {
-    background-color: green;
+    background-color: #49BFBF; 
+    
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#ContactMe h3 {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    margin: 0px; 
+}
+
+#ContactMe h4 {
+    text-align: center; 
+    margin-top: px; 
+}
+
+.email {
+    background-color: whitesmoke;
+    width: 60vw; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h5 {
+    text-align: center;
+}
+
+.myLinks {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.findMeLinks {
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
