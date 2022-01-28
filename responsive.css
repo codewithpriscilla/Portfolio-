@@ -138,4 +138,9 @@
         display: flex; 
         justify-content: space-between;
     }
+
+    /*.................Projects.................*/
+    #Projects {
+        padding-bottom: 50px;
+    }
 }
