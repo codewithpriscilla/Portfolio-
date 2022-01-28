@@ -61,8 +61,8 @@ $(".myLinks").hover(function(){
 }, function(){
     $(".myLinks").toggleClass("shadow");
 })
-
-
-
-
+ 
+$(".email").click(function() {
+    window.open('mailto:codewithpriscilla@gmail.com>');
+})
 
