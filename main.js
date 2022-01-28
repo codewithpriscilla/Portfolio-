@@ -66,3 +66,9 @@ $(".email").click(function() {
     window.open('mailto:codewithpriscilla@gmail.com>');
 })
 
+$(".email").hover(function(){
+    $(".email").toggleClass("shadow");
+}, function(){
+    $(".email").toggleClass("shadow");
+})
+
