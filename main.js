@@ -18,3 +18,51 @@ $(".menuicon").click(function() {
     }
 })
 
+$(".menuicon").hover(function(){
+    $(".menuicon").toggleClass("shadow");
+}, function(){
+    $(".menuicon").toggleClass("shadow");
+})
+
+$("#pageLinks").hover(function(){
+    $("#pageLinks").toggleClass("shadow");
+}, function(){
+    $("#pageLinks").toggleClass("shadow");
+})
+
+
+
+
+
+// ...............................................
+//      P R O J E C T S 
+
+$(".webpage").hover(function(){
+    $(".webpage").toggleClass("shadow");
+}, function(){
+    $(".webpage").toggleClass("shadow");
+})
+
+$(".projectlink").hover(function(){
+    $(".projectlink").toggleClass("shadow");
+}, function(){
+    $(".projectlink").toggleClass("shadow");
+})
+
+
+
+
+// ...............................................
+//          C O N T A C T   M E 
+
+
+$(".myLinks").hover(function(){
+    $(".myLinks").toggleClass("shadow");
+}, function(){
+    $(".myLinks").toggleClass("shadow");
+})
+
+
+
+
+

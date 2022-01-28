@@ -195,7 +195,9 @@ h4 {
     margin-top: 5px;
 }
 
-
+.shadow {
+    filter: drop-shadow(0px 0px 3px black);
+}
 
 
 
