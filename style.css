@@ -162,6 +162,13 @@ p {
 .projectlink {
     height: 30px; 
 }
+.fa-github {
+    color: white; 
+    
+}
+.fa-link {
+    color: white; 
+}
 .webpage {
     width: 85vw;
      
