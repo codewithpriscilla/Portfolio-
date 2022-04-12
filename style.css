@@ -98,13 +98,14 @@ h3 {
     color: white; 
 }
 p {
-    font-size: 15px;
+    font-size: 1em;
     color: white;
     line-height: 200%;
 }
 .aboutMeP {
     text-align: center;
     padding: 10px 20px 40px 20px;
+    font-size: 1.5em;
 }
 
 
@@ -164,15 +165,14 @@ p {
 }
 .fa-github {
     color: white; 
-    
 }
 .fa-link {
     color: white; 
 }
 .webpage {
     width: 85vw;
-     
 }
+
 h4 {
     font-size: 25px;
     color: white; 
